@@ -146,7 +146,7 @@ void searchChannel(struct st_channel* c[], int size){
 }
 
 void updateChannel(struct st_channel* c[], int size){
-	printf("> Add a new Channel\n");
+	printf("> Modify a new Channel\n");
 	printf("> Enter a number of channel > ");
 
 
