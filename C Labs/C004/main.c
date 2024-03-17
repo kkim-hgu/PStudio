@@ -17,17 +17,17 @@ char kname[2][10] = {"A+~F", "P/F"}; // String for grading
 // Functions provided
 int loadData(struct st_class* c[]); // Load all class list from data file.
 void printAllClasses(struct st_class* c[], int csize); // Print all class list
+void findClasses(char* name, struct st_class* c[], int csize); // Search a class by name from the list
+void saveAllClasses(struct st_class* c[], int csize); // Save all class list
 
 // Functions for modifying
 int addNewClass(struct st_class* c[], int csize); // Add a class into the list
 void editClass(struct st_class* c[], int csize); // Modify a class in the list
-void findClasses(char* name, struct st_class* c[], int csize); // Search a class by name from the list
 
 // Functions for making
 int applyMyClasses(int my[], int msize, struct st_class* c[], int csize); // Apply a class
 void printMyClasses(int my[], int msize, struct st_class* c[], int csize); // Print my classes
 void saveMyClass(int my[], int msize, struct st_class* c[], int csize); // Save my classes
-void saveAllClasses(struct st_class* c[], int csize); // Save all class list
 
 
 int main(void) {
