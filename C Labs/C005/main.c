@@ -11,8 +11,8 @@ char LNAME[5][30]={"Graphite","Opal","Bronze","Silver","Gold"}; // labels by lev
 
 struct st_channel{
 	char name[100]; // Channel name
-	int count;      // # of subscriptions
-	int level;      // index of level (0~4)
+	int count;	  // # of subscriptions
+	int level;	  // index of level (0~4)
 };
 
 int loadData(struct st_channel* c[]); 
@@ -106,7 +106,7 @@ void printChannels(struct st_channel* c[], int size){
 
 int addChannel(struct st_channel* c[], int size){
 	struct st_channel* temp;
-    printf("> Add a new Channel\n");
+	printf("> Add a new Channel\n");
 	temp = (struct st_channel*)malloc(sizeof(struct st_channel));
 	printf("> Enter a name of channel > ");
 	scanf("%s", temp->name);
@@ -128,7 +128,7 @@ void printStatistics(struct st_channel* c[], int size){
 }
 
 void pickupRandomChannels(struct st_channel* c[], int size){
-    printf("> Pick up Channels\n");
+	printf("> Pick up Channels\n");
 	printf("> How much channels you want to pick up? > ");
 
 
@@ -136,7 +136,7 @@ void pickupRandomChannels(struct st_channel* c[], int size){
 
 }
 void searchChannel(struct st_channel* c[], int size){
-    printf("> Search Channels\n");
+	printf("> Search Channels\n");
 	printf("> Choose one (1:by peoples 2:by names) > ");
 
 
@@ -146,7 +146,7 @@ void searchChannel(struct st_channel* c[], int size){
 }
 
 void updateChannel(struct st_channel* c[], int size){
-    printf("> Add a new Channel\n");
+	printf("> Add a new Channel\n");
 	printf("> Enter a number of channel > ");
 
 
@@ -154,7 +154,7 @@ void updateChannel(struct st_channel* c[], int size){
 
 int deleteChannel(struct st_channel* c[], int size){
 	int no, yesno;
-    printf("> Delete a new Channel\n");
+	printf("> Delete a new Channel\n");
 	printf("> Enter a number of channel > ");
 
 	return size;
