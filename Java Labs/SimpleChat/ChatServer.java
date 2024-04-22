@@ -1,3 +1,4 @@
+// SimpleChat Server
 import java.net.*;				
 import java.io.*;				
 import java.util.*;				

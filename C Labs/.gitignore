@@ -5,6 +5,10 @@
 # Prerequisites
 *.d
 
+### Java ###
+# Prerequisites
+*.class
+
 # Object files
 *.o
 *.ko

@@ -1,4 +1,4 @@
-# SimpleChat
+# SimpleChat Java
 Simple Chatting Program (java version)
 
 ## Client Compile 
