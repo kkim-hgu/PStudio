@@ -13,8 +13,10 @@ Simple Chatting Program (java version)
 
 ### Terminal #2
   java ChatClient \<username1> \<server ip address>
+  
   e.g.> java ChatClient Kim localhost 
 
 ### Terminal #3
   java ChatClient \<username2> \<server ip address>
+  
   e.g.> java ChatClient Jang localhost
