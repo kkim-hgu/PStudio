@@ -6,7 +6,6 @@
 *.d
 
 ### Java ###
-# Prerequisites
 *.class
 
 # Object files
