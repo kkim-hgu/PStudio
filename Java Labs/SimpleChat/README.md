@@ -4,6 +4,9 @@ Simple Chatting Program (java version)
 ## Client Compile 
  javac ChatClient.java
 
+## Client Compile (GUI Chatting)
+ javac WinChatClient.java
+
 ## Server Compile 
  javac ChatServer.java
 
@@ -20,3 +23,8 @@ Simple Chatting Program (java version)
   java ChatClient \<username2> \<server ip address>
   
   e.g.> java ChatClient Jang localhost
+
+### Terminal #4 (GUI Chatting)
+  java WinChatClient \<server ip address>
+  
+  e.g.> java WinChatClient localhost
