@@ -105,11 +105,11 @@ int main() {
 		    	cout << manager.getMyCount() << " classes has been applied.\n";
                 break;
     		case 6:
-    			printf("> 6.My classes\n");
+    			cout << "> 6.My classes\n";
 	    		manager.printMyClasses();
                 break;
     		case 7:
-    			printf("> 7.Save\n");
+    			cout << "> 7.Save\n";
 	    		manager.saveMyClasses("myclasses.txt");
 		    	cout << "\n> All my classes ware saved to my_classes.txt.\n";
 			    manager.saveAllClasses("classes.txt");
@@ -161,7 +161,7 @@ void MyClassManager::findClasses(string name){
 			found++;
 		}
 	}
-	printf("%d classes found.\n", count);
+	cout << count << " classes found.\n";
 }
 
 // You must complete these functions.
